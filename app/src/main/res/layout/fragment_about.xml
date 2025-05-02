@@ -1,0 +1,76 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    tools:context=".MainActivity">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Heading -->
+            <TextView
+                android:id="@+id/about_us_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@color/orange"
+                android:padding="12dp"
+                android:gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIEPMD (National Institute for Empowerment of Persons with Multiple Disabilities) and other similar institutions."
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Key Features -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🔑 Key Features of the App"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp" />
+
+            <!-- List Items -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="👩‍🏫 Job Coaching Modules: Step-by-step learning tailored to various disabilities.\n\n💼 Job Listings: Opportunities under the 4% reservation from govt and private sectors.\n\n📄 Resume Builder: Easy-to-use tools to help users create accessible resumes.\n\n📱 Multilingual Support: To ensure wider reach and inclusivity.\n\n🧑‍💻 Interactive Training: Videos, quizzes, and simulations for interview prep, workplace etiquette, etc.\n\n🔒 Accessibility First: WCAG-compliant UI/UX, screen reader support, and voice navigation.\n\n📍 Nearby Institutes , Job Fairs: Geolocation-based suggestions.\n\n📊 Progress Tracking: For users and their coaches/trainers.\n\n📅 Document Upload: For verification and application submission."
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:lineSpacingExtra="6dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Footer -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developed with ❤️ for inclusivity."
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
